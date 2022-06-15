@@ -13,6 +13,7 @@ body{
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
     border-radius: 5px;
+
 }
 
 #card_section .card img{
@@ -31,9 +32,6 @@ body{
     opacity: 0;
 }
 
-#card_section .card:hover{
-    cursor: pointer;
-}
 
 #card_section .card:hover .card-body{
     top: 235px;
@@ -48,11 +46,26 @@ body{
 #card_section .card:hover img{
     transform: scale(1.1);
 }
+#card_section .card_overlay{
+        position: relative;
+}
 
-#card_section .square{
+#card_section .card_overlay .overlay{
     width: 200px;
     height: 200px;
     position: absolute;
     background-color: aqua;
-    top: -5px;
+    top: 186px;
+    left: 0px;
+    z-index: -1;
+} 
+
+#card_section .card_overlay .overlay_2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: aqua;
+    top: -12px;
+    left: 113px;
+    z-index: -1;
 }
