@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Arial, sans-serif;
+}
+.section_slide{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+.section_slide section{
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+.section_slide section:nth-child(2){
+    background-color: rgb(255, 166, 0);
+}
+.section_slide section:nth-child(3){
+    background-color: rgb(17, 0, 255);
+}
+
+.section_slide section .content{
+    max-width: 800px;
+    padding: 40px;
+    text-align: center;
+}
+
+.section_slide section .content h2{
+    font-size: 4em;
+    color: #111;
+}
+
+.section_slide section .content p{
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: #fff;
+}
