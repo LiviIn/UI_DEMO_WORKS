@@ -18,31 +18,52 @@
 </head>
 <body>
     <!-- Navigation Menu Start-->
-    <div class="section_sidebar">
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="projects.html">Project</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>  
-    </div>
-    <div class="sidebar_Btn">
-        <button>
-            <span>
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </span>
-        </button>
-    </div>
-    <div class="logo_section">
-        <a class="navbar-brand" href="index.html">
-            <img src="./accets/images/AAA_log.jpeg" alt="">
-        </a>
-    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                  <img src="./accets/images/aaa_lo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item style_link">
+                    <a class="nav-link " href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item style_link">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item style_link">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown style_link">
+                    <a class="nav-link" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu" >
+                      <li><a class="dropdown-item" href="#">Attendance Payroll system</a></li>
+                      <li><a class="dropdown-item" href="#">Machine Shop Quality Management</a></li>
+                      <!-- <li><hr class="dropdown-divider"></li> -->
+                      <li><a class="dropdown-item" href="#">Energy Monitoring</a></li>
+                      <li><a class="dropdown-item" href="#">Production Monitoring</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item style_link">
+                    <a class="nav-link" href="careers.html">Careers</a>
+                  </li>
+                  <li class="nav-item style_link">
+                    <a class="nav-link " href="contact.html">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
     <!-- Navigation Menu End-->
-    <div class="section_slide" data-0="transform:translateX(0%);" data-1000="transform:translateX(-200%);">
+    <div class="section_slide" data-0="transform:translateX(0%);" data-1000="transform:translateX(-300%);">
         <section id="hero_section">
             <div class="container">
                 <h1>We do - Device management, data collection, processing,<br>
@@ -105,10 +126,64 @@
                 </div>  
             </div>
         </section>
-        <section>
-            <div class="content">
-                <h2>Section Three</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis numquam cum perspiciatis, odit impedit exercitationem commodi minus sunt quisquam incidunt id, porro ullam officia atque voluptate eligendi voluptatem earum molestiae.</p>
+        <section id="our_client_section">
+                <div class="container">
+                    <h1 class="text-center">OUR CLIENTS</h1>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="accets/images/customer/download.png" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="accets/images/customer/kgisl1.jpg" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="accets/images/customer/sand.png" alt="">
+                        </div>
+                    </div>
+                
+                </div>
+        </section>
+        <section id="contact_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div>
+                            <h5>Reach us</h5>
+                            <h1>Contact us for <br>
+                        best IOT solution.</h1>
+                        </div>
+                        <div>
+                            <p></p>
+                            <h6><span>Email</span><br>email@gmail.com</h6>
+                        </div>
+                        <div>
+                            <p></p>
+                            <h6>
+                                <span>Location</span>
+                                <address>
+                                Plot No : 1-4 & 7-9, South Block,<br>
+                                SIDCO - Sugunapuram Rd,<br>
+                                SIDCO Private Industrial Estate,<br>
+                                Coimbatore, Tamil Nadu 641021
+                            </address>
+                            </h6>
+                        </div>
+                        <div>
+                            <h6>
+                                <span>Follow</span>
+                            </h6>
+                            <div class="d-flex justify-content-start">
+                                <h6>Facebook</h6>
+                                <h6 class="ms-4">Instagram</h6>
+                                <h6 class="ms-4">Linkedin</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.33423086371!2d76.97727951444178!3d10.93810555918037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85b4f98f0614b%3A0xa0b6ead610e45111!2sACCEEDO%20Limited%20(%20IoT%20Solution)!5e0!3m2!1sen!2sin!4v1656556208742!5m2!1sen!2sin" width="430" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
             
         </section>

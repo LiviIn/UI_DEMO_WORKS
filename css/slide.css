@@ -41,12 +41,7 @@
     transition: 0.3s;
 }
 
-.menu_active{
-    color: #000;
-    font-weight: 600;
-    background-color: aqua;
-    transition: 0.3s;
-}
+
 .sidebar_Btn{
     /* position: absolute;
     
@@ -94,10 +89,10 @@
 .btn_active{
     left: 65px;
 }
-.menu_active{
+/* .menu_active{
     color: #111;
     background-color: #fff;
-}
+} */
 .sidebar_Btn button{
     padding: 12px 15px;
     border-radius: 50%;
@@ -129,7 +124,7 @@
     background-color:  #fff;
 }
 .section_slide section:nth-child(3){
-    background-color: rgb(17, 0, 255);
+    background-color: #fff;
 }
 
 .section_slide section .content{

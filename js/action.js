@@ -1,5 +1,5 @@
 const currentLocation = location.href;
-const menuItem = document.querySelectorAll('.section_sidebar ul li a');
+const menuItem = document.querySelectorAll('.navbar .nav-item a');
 const menuLength = menuItem.length
 for(let i = 0; i<menuLength; i++){
     if(menuItem[i].href === currentLocation){
