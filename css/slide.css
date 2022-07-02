@@ -25,7 +25,7 @@
 .section_sidebar ul li{
     list-style: none;
 }
-.section_sidebar ul li a{
+/* .section_sidebar ul li a{
     padding: 20px 20px;
     color: #fff;
     display: block;
@@ -33,7 +33,7 @@
     border-bottom: 1px solid rgba(0,0,0,0.2);
     text-align: center;
     letter-spacing: 1.2px;
-}
+} */
 .section_sidebar ul li a:hover {
     color: #111;
     font-weight: 600;
