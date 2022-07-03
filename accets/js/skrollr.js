@@ -47,7 +47,7 @@
 	var SKROLLR_MOBILE_CLASS = SKROLLR_CLASS + '-mobile';
 
 	var DEFAULT_EASING = 'linear';
-	var DEFAULT_DURATION = 1000;//ms
+	var DEFAULT_DURATION = 500;//ms
 	var DEFAULT_MOBILE_DECELERATION = 0.004;//pixel/ms²
 
 	var DEFAULT_SKROLLRBODY = 'skrollr-body';
