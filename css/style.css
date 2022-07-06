@@ -14,9 +14,49 @@ body{
     letter-spacing: .02em
 }
 
+
+
+.section_slide{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+.section_slide section{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+.section_slide section:nth-child(2){
+    background-color:  #fff;
+}
+.section_slide section:nth-child(3){
+    background-color: #fff;
+}
+
+.section_slide section .content{
+    max-width: 800px;
+    padding: 40px;
+    text-align: center;
+}
+
+.section_slide section .content h2{
+    font-size: 4em;
+    color: #111;
+}
+.section_slide section .content p{
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: #111;
+}
+
 h1{
     font-family: Poppins,Arial,sans-serif;
-    font-size: 4.2vw !important;
+    font-size: 3.4vw !important;
     line-height: 1.1 !important;
     color: #001f27;
     letter-spacing: 2px;
@@ -98,9 +138,7 @@ header .navbar-brand img{
 
 #hero_section .container h1{
     /* padding-inline-end: 25%; */
-    font-size: 4.2vw;
-    line-height: 1.15;
-    font-weight: 700;
+    font-size: 4.2vw !important;
     letter-spacing: 3px;
     display: block;
     background-size: cover;
@@ -124,10 +162,10 @@ header .navbar-brand img{
 }
 #card_section h1{
     margin-top: 0px;
-    font-size: 3.4vw !important;
-    line-height: 1.1 !important;
+    
+    /* line-height: 1.1 !important;
     color: #001f27;
-    font-weight: 600;
+    font-weight: 600; */
     letter-spacing: 1.2px;
 }
 #card_section .card_shadow{
@@ -233,10 +271,10 @@ header .navbar-brand img{
     background-color: #fff;
 }
 #our_client_section h1{
-    font-size: 3.4vw !important;
+    /* font-size: 3.4vw !important;
     line-height: 1.1 !important;
     color: #001f27;
-    letter-spacing: 2px;
+    letter-spacing: 2px; */
     margin-bottom: 50px;
 }
 #our_client_section img{
@@ -246,11 +284,11 @@ header .navbar-brand img{
     margin-top: 40px;  
 }
 #contact_section .Address_title h1{
-    font-size: 3.4vw !important;
+    /* font-size: 3.4vw !important;
     line-height: 1.1 !important;
     font-weight: 600;
     color: #001f27;
-    letter-spacing: 2px;
+    letter-spacing: 2px; */
     padding-bottom: 0.4rem;
     transition: all .8s cubic-bezier(.215,.61,.355,1) .5s;
 }
@@ -265,11 +303,45 @@ header .navbar-brand img{
     margin-bottom: 0.5rem;
     color: rgba(0,0,0,.5);
 }
+#contact_section .email_section a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#contact_section .email_section a:hover{
+    background: rgb(24, 219, 210);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
 #contact_section .email_section p{
     margin-bottom: 5px;
 }
 #contact_section .email_section h6{
     letter-spacing: 1.3px;
+}
+#contact_section .follow_section  a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#contact_section .follow_section .facebook a:hover{
+    background: blue;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+#contact_section .follow_section .insta a:hover{
+    background: rgb(255, 72, 0);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+#contact_section .follow_section .linkdin a:hover{
+    background: rgb(21, 21, 163);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
 }
 .location_section  p{
     margin-bottom: 5px;
@@ -316,7 +388,7 @@ iframe{
 
 .section_About section .content h1{
     font-size: 3.4vw !important;
-    line-height: 1.1 !important;
+    line-height: 1.4 !important;
     font-weight: 600;
     color: #001f27;
     letter-spacing: 2px;
@@ -327,4 +399,101 @@ iframe{
     font-weight: bold;
     margin-left: 5px;
     margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 991px){
+    .section_slide{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        transform: none !important;
+    }
+    .section_slide section{
+        height: 0vh
+    }
+    h1{
+        font-size: 6.4vw!important;
+    }
+    header .style_link a {
+        font-size: 4.2vw;
+        font-weight: bold;
+    }
+
+    header .navbar{
+        background: #f7f2f2b5;
+    }
+
+    header .navbar .navbar-nav{
+        text-align: right;
+    }
+    
+    #hero_section .container {
+        top: 100px;
+        padding-left: 15px;
+    }
+
+    #hero_section .container h1{
+        font-size: 7.4vw!important;
+    }
+
+    #hero_section .container p{
+        font-size: 3.2vw;
+        font-weight: bold;
+        letter-spacing: 1.1px;
+    }
+    #hero_section .container a{
+        padding: 9px;
+        font-size: 3vw;
+    }
+    #card_section .container{
+        z-index: 999;
+    }
+
+    #card_section h1{
+        margin-top: 180px;
+    }
+    #card_section .card-body{
+        top: 32px;
+    }
+    #card_section .card-body h2{
+        font-size: 6.2vw;
+        line-height: 1.2;
+        font-weight: 600
+    }
+    #card_section .card-body p{
+        font-size: 4.1vw;
+    }
+
+    #our_client_section{
+        margin-top: 500px;
+    }
+
+    #our_client_section img{
+        margin-left: 60px;
+    }
+
+
+    #contact_section{
+        margin-top: 550px;
+        text-align: center;
+    }
+    #contact_section .follow_section h6{
+        margin-left: 77px;
+    }
+    #contact_section iframe{
+        margin-left: 43px;
+    }
+    .section_About section .content {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .section_About section .content h1{
+        font-size: 6.4vw!important;
+    }
+    .section_About section .content p{
+        font-size: 3.1vw;
+        line-height: 1.4;
+        padding: 0px;
+    }
+
 }
