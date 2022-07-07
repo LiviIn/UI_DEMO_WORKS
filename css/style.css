@@ -138,6 +138,19 @@ header .navbar-brand img{
 .sticky_container_Phone i{
     color: #FFF
 }
+.sticky_container_Face{
+    position: fixed;
+    top: 60%;
+    right: 0;
+    background-color: #1877f2;
+    box-shadow: gray -1px 1px;
+    font-size: 21px;
+    z-index: 999;
+    padding: 3px 10px;
+}
+.sticky_container_Face i{
+    color: #FFF
+}
 /*.... hero section CSS start....*/
 #hero_section{
     position: relative;
