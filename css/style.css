@@ -111,6 +111,33 @@ header .navbar-brand img{
     width: 125px;
 }
 /*.... Header section css End.... */
+
+.sticky_container_email{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    background-color: #db4437;
+    box-shadow: gray -1px 1px;
+    font-size: 18px;
+    z-index: 999;
+    padding: 3px 10px;
+}
+.sticky_container_email i{
+    color: #FFF
+}
+.sticky_container_Phone{
+    position: fixed;
+    top: 55%;
+    right: 0;
+    background-color: #010101;
+    box-shadow: gray -1px 1px;
+    font-size: 21px;
+    z-index: 999;
+    padding: 3px 10px;
+}
+.sticky_container_Phone i{
+    color: #FFF
+}
 /*.... hero section CSS start....*/
 #hero_section{
     position: relative;
