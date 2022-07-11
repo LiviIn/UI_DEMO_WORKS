@@ -20,3 +20,7 @@ for(let i = 0; i<menuLength; i++){
             }
             $(window).scroll(removeAllActiveClasses);
 })
+
+$(document).ready(function(){
+    $(window).scrollTop(0);
+});
