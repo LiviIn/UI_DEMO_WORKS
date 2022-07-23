@@ -24,3 +24,38 @@ for(let i = 0; i<menuLength; i++){
 $(document).ready(function(){
     $(window).scrollTop(0);
 });
+
+// project section show hide section
+$(function() {
+    $('.showSingle').click(function() {
+      $('.targetDiv').not('#div' + $(this).attr('target')).hide();
+      $('#div' + $(this).attr('target')).toggle();
+    });
+  });
+// scroll Top Action
+
+
+let calcScrollValue = () => {
+    let scrollProgress = document.getElementById("scroll-top");
+    let progressValue = document.getElementById("scroll-top-icon");
+    let pos = document.documentElement.scrollTop;
+   
+    let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+   
+    let scrollValue = Math.round((pos * 100)/ calcHeight);
+
+    if(pos > 100){
+        scrollProgress.style.display = "grid"
+    }else {
+        scrollProgress.style.display = "none"
+    }
+
+    scrollProgress.addEventListener("click", () =>{
+        document.documentElement.scrollTop = 0;
+    })
+
+    scrollProgress.style.background = `conic-gradient(#45b1af ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+}
+
+window.onscroll = calcScrollValue;
+window.onload = calcScrollValue
