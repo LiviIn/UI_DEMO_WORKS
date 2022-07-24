@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Project | Acceedo</title>
 </head>
 <body>
@@ -51,9 +54,9 @@
                       <li><a class="dropdown-item" href="#">Production Monitoring</a></li>
                     </ul>
                   </li> -->
-                  <li class="nav-item style_link">
+                  <!-- <li class="nav-item style_link">
                     <a class="nav-link" href="services.html">Services</a>
-                  </li>
+                  </li> -->
                   <li class="nav-item style_link">
                     <a class="nav-link " href="contact.html">Contact us</a>
                   </li>
@@ -63,37 +66,104 @@
           </nav>
     </header>
     <!-- Navigation Menu End-->
-    <div class="section_Project">
-      <section>
+    <div id="scroll-top">
+      <span id="scroll-top-icon">&#x1F815</span>
+    </div>
+    <div class="section_Project mb-5">
+      
+      <section class="mb-5">
           <div class="container">
-            <h2>Our Project</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis numquam cum perspiciatis, odit impedit exercitationem commodi minus sunt quisquam incidunt id, porro ullam officia atque voluptate eligendi voluptatem earum molestiae.</p>
-
+            <h1>Our Project</h1>
             <div class="buttons ml-5">
-              <div class="row row-cols-auto">
-                <div class="col-sm">
-                  <a class="showSingle" target="1">Attendance Payroll Management</a>
-                </div>
-                <div class="col-sm">
+              <div class="d-flex flex-row">
+                <!-- <div class="col-sm"> -->
+                  <a class="showSingle active-product" target="1">Attendance Payroll Management</a>
+                <!-- </div> -->
+                <!-- <div class="col-sm"> -->
                   <a class="showSingle" target="2">Industrial IOT 4.0</a>
-                </div>
-                <div class="col-sm">
+                <!-- </div>
+                <div class="col-sm"> -->
                   <a class="showSingle" target="3">Furnace Monitor and Control in Foundry</a>
-                </div>
+                <!-- </div> -->
               </div>
+              <!-- <div class="row row-cols-auto">
+                
+              </div> -->
             </div>
 
             <div id="div1" class="targetDiv" style="display:block;">
-              <h2>Lorum Ipsum1</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas illum veritatis quasi, a assumenda dolorum ut. Assumenda voluptas, eaque deleniti repellendus incidunt laudantium, cum excepturi alias explicabo, consequuntur nemo.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas illum veritatis quasi, a assumenda dolorum ut. Assumenda voluptas, eaque deleniti repellendus incidunt laudantium, cum excepturi alias explicabo, consequuntur nemo.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas illum veritatis quasi, a assumenda dolorum ut. Assumenda voluptas, eaque deleniti repellendus incidunt laudantium, cum excepturi alias explicabo, consequuntur nemo.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas illum veritatis quasi, a assumenda dolorum ut. Assumenda voluptas, eaque deleniti repellendus incidunt laudantium, cum excepturi alias explicabo, consequuntur nemo.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas illum veritatis quasi, a assumenda dolorum ut. Assumenda voluptas, eaque deleniti repellendus incidunt laudantium, cum excepturi alias explicabo, consequuntur nemo.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas illum veritatis quasi, a assumenda dolorum ut. Assumenda voluptas, eaque deleniti repellendus incidunt laudantium, cum excepturi alias explicabo, consequuntur nemo.</p>
+              <h2>
+                Feature
+              </h2>
+              <div class="row">
+                <div class="col col-lg-4" >
+                  <div class="card h-100">
+                    <h4 class="card-title">Payroll Management</h4>
+                    <img src="./accets/images/payroll-o1.png" alt="">
+                  </div>
+                </div>
+                <div class="col col-lg-4" >
+                  <div class="card h-100">
+                    <h4 class="card-title">Time & Attendance</h4>
+                    <img src="./accets/images/attendan-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col col-lg-4" >
+                  <div class="card h-100">
+                    <h4 class="card-title">Employee Database Management</h4>
+                    <img src="./accets/images/edm-bg.png" alt="">
+                  </div>
+                </div>
+                
+              </div>
+              
+              <div class="row my-5">
+                <div class="col col-lg-4" >
+                  <div class="card h-100">
+                    <h4 class="card-title">Mobile App Scan</h4>
+                    <img src="./accets/images/mobile-app-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col col-lg-4" >
+                  <div class="card h-100">
+                    <h4 class="card-title">Finger print / Card Access</h4>
+                    <img src="./accets/images/finger-print-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col col-lg-4" >
+                  <div class="card h-100">
+                    <h4 class="card-title">Contract / Labour Management</h4>
+                    <img src="./accets/images/TA-bg.png" alt="">
+                  </div>
+                </div>
+                
+              </div>
+              <div class="row mb-5">
+                <div class="col col-lg-4" >
+                  <div class="card h-100">
+                    <h4 class="card-title">Shift Management</h4>
+                    <img src="./accets/images/shift-bg.png" alt="">
+                  </div>
+                </div>
+                <div class="col col-lg-4" >
+                  <div class="card h-100">
+                    <h4 class="card-title">Leave / Late Management</h4>
+                    <img src="./accets/images/leave-bg.png" alt="">
+                  </div>
+                </div>
+              </div>
             </div>
             <div id="div2" class="targetDiv" style="display:none;">Lorum Ipsum2</div>
             <div id="div3" class="targetDiv" style="display:none;">Lorum Ipsum3</div>
+
+            <div class="download_file text-center mb-5">
+              <button type="button" class="btn btn-success">
+                <a href="./accets/documents/Product -Attendance Payroll management.pdf" 
+                    download="Product -Attendance Payroll management">
+                  <i class="fa fa-download"></i> Download PDF
+                </a>
+              </button>
+            </div>
           </div>
     </section>
     </div>

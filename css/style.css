@@ -55,7 +55,7 @@ section{
     justify-content: center;
     align-items: center;
     height: 103vh;
-    background-color: #fff;
+  
     
 }
 .section_slide section:nth-child(2){
@@ -106,6 +106,9 @@ header .style_link a {
     letter-spacing: .7px!important;
     transition: all .3s ease-in-out;
 }
+ header .navbar .navbar-light .navbar-nav .nav-link{
+    font-weight: 600 !important;
+ }
 header .style_link{
     margin: 0px 10px;
     font-size: 14px;
@@ -441,19 +444,19 @@ header .navbar-brand img{
     transition: 0.5s;
 }
 #contact_section .follow_section .facebook a:hover{
-    background: blue;
+    background: #4267B2;
     color: white;
     padding: 4px 8px;
     border-radius: 10px;
 }
 #contact_section .follow_section .insta a:hover{
-    background: rgb(255, 72, 0);
+    background: #F56040;
     color: white;
     padding: 4px 8px;
     border-radius: 10px;
 }
 #contact_section .follow_section .linkdin a:hover{
-    background: rgb(21, 21, 163);
+    background: #0077b5;
     color: white;
     padding: 4px 8px;
     border-radius: 10px;
@@ -479,6 +482,7 @@ iframe{
     /* top: 50px;
     left: 20px; */
     width: 100vw;
+    margin-top: 250px;
  
 }
 .section_About section{
@@ -487,7 +491,7 @@ iframe{
     align-items: center;
     height: 100vh;
     background-color: #fff;
-    margin-top: 242px;
+    margin-top: 70p;
 }
 
 .section_About section .content{
@@ -642,25 +646,98 @@ iframe{
     place-items: center;
     font-size: 30px;
     color: #45b1af;
+    
 } 
 
 .section_Project{
-    margin-top: 100px;
+    /* position: relative; */
+    margin-top: 390px;
 }
 .section_Project .buttons{
-    margin-left: 13px;
-    margin-top: 50px;
+    /* margin-left: 13px; */
+    margin-top: 25px;
+}
+.section_Project .buttons a::before{
+    /* content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    /* z-index: -1; */
+    /* border-radius: 10px;  */
+    /* background-color: #45b1af; */
+    /* transform: scaleX(20px); */
 }
 .section_Project .buttons a{
     padding: 10px;
-    background-color: #19cece;
-    border-radius: 10px;
+    position: relative;
     text-decoration: none;
-    color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+     background-color: #45b1af;
+        border-radius: 10px;  
+        font-weight: bold;  
+    color: black;
+    z-index: 99; 
+    /* transform: scaleX(0); */
+   transition: .5s;
+   margin-right: 20px;
+   font-size: 3.2vh;
+}
+
+.section_Project .buttons a:hover{
+    background-color: yellowgreen;
 }
 .section_Project .targetDiv{
     display: block;
     margin-left: 13px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
+
+.section_Project .card{
+    border: none !important;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 15px;
+}
+
+.section_Project .card img{
+    width: 54%;
+    margin-top: 0px;
+    margin-left: 68px;
+}
+.section_Project h2{
+    font-size: 3.4vw !important;
+    line-height: 1.4 !important;
+    font-weight: 600;
+    color: #001f27;
+    letter-spacing: 2px;
+    padding-bottom: 0.4rem;
+    transition: all .8s cubic-bezier(.215,.61,.355,1) .5s;
+}
+
+.section_Project h4{
+    font-size: 2vw !important;
+    line-height: 1.1 !important;
+    font-weight: 600;
+    color: #001f27;
+    letter-spacing: 1px;
+    padding-bottom: 0.4rem;
+    transition: all .8s cubic-bezier(.215,.61,.355,1) .5s;
+}
+.section_Project .download_file .btn{
+    background-color: #45b1af !important;
+}
+.section_Project .download_file a{
+    text-decoration: none;
+    color: #001f27;
+    font-size: 2vw !important;
+    line-height: 1.1 !important;
+    font-weight: bold;
+    
+}
+.section_Project .download_file .btn:hover{
+    background-color: yellowgreen!important;
+}
+
 
