@@ -26,12 +26,12 @@ $(document).ready(function(){
 });
 
 // project section show hide section
-$(function() {
-    $('.showSingle').click(function() {
-      $('.targetDiv').not('#div' + $(this).attr('target')).hide();
-      $('#div' + $(this).attr('target')).toggle();
-    });
-  });
+// $(function() {
+//     $('.showSingle').click(function() {
+//       $('.targetDiv').not('#div' + $(this).attr('target')).hide();
+//       $('#div' + $(this).attr('target')).toggle();
+//     });
+//   });
 // scroll Top Action
 
 
@@ -58,4 +58,31 @@ let calcScrollValue = () => {
 }
 
 window.onscroll = calcScrollValue;
-window.onload = calcScrollValue
+window.onload = calcScrollValue;
+
+
+
+
+var li_elements = document.querySelectorAll(".product-fixed a");
+var item_elements = document.querySelectorAll(".targetDiv");
+for (var i = 0; i < li_elements.length; i++) {
+  li_elements[i].addEventListener("click", function() {
+    li_elements.forEach(function(a) {
+      a.classList.remove("active-product");
+    });
+    this.classList.add("active-product");
+    var li_value = this.getAttribute("data-li");
+    item_elements.forEach(function(targetDiv) {
+        targetDiv.style.display = "none";
+    });
+    if (li_value == "Attendance") {
+      document.querySelector("." + li_value).style.display = "block";
+    } else if (li_value == "Industrial") {
+      document.querySelector("." + li_value).style.display = "block";
+    } else if (li_value == "Furnace") {
+      document.querySelector("." + li_value).style.display = "block";
+    }else {
+      console.log("");
+    }
+  });
+}
