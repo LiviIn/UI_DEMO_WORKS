@@ -63,7 +63,7 @@ window.onload = calcScrollValue;
 
 
 
-var li_elements = document.querySelectorAll(".product-fixed a");
+var li_elements = document.querySelectorAll(".section_Project-product-fixed a");
 var item_elements = document.querySelectorAll(".targetDiv");
 for (var i = 0; i < li_elements.length; i++) {
   li_elements[i].addEventListener("click", function() {

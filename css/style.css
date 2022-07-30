@@ -572,6 +572,7 @@ iframe{
 
     #hero_section .container h1{
         font-size: 7.4vw!important;
+            margin-top: 6px;
     }
 
     #hero_section .container p{
@@ -582,6 +583,9 @@ iframe{
     #hero_section .container a{
         padding: 9px;
         font-size: 3vw;
+    }
+    #card_section {
+        margin-top: -186px;
     }
     #card_section .container{
         z-index: 999;
@@ -603,7 +607,12 @@ iframe{
     }
 
     #our_client_section{
-        margin-top: 500px;
+        margin-top: -22px;
+    }
+
+    #our_client_section h1 {
+        padding-top: 41px;
+        margin-bottom: 37px;
     }
 
     #our_client_section img{
@@ -612,17 +621,23 @@ iframe{
 
 
     #contact_section{
-        margin-top: 550px;
+        margin-top: -22px;
         text-align: center;
        
     }
     #contact_section .follow_section h6{
-        margin-left: 77px;
+        margin-left: 7px;
+    }
+    #contact_section .row {
+        padding-top: 0px;
     }
     #contact_section iframe{
         /* margin-left: 43px; */
         padding-left: 40px;
         padding-bottom: 40px;
+    }
+    #contact_section .follow_section .justify-content-start {
+        justify-content: center!important;
     }
     .section_About section  {
         margin-top: 30px;
@@ -635,6 +650,40 @@ iframe{
         font-size: 3.1vw;
         line-height: 1.4;
         padding: 0px;
+    }
+    #contact_page{
+        margin-top: 73px;
+    }
+    .contact_page .container{
+        padding-top: 78px;
+    }
+    .section_Project-product-fixed {
+        top: 76px!important;
+    }
+    .section_Project-product-fixed .buttons a{
+        padding: 10px 4px !important;
+        font-size: 1.8vh !important;
+    }
+    .section_Project .card {
+        padding: 15px;
+    }
+    .section_Project h4 {
+        font-size: 2.8vw !important;
+    }
+    .section_Project .card img {
+        width: 44% ;
+        text-align: center !important;
+        margin-top: -6px !important;
+        margin-left: 33px !important;
+    }
+    .section_Project .targetDiv {
+        padding-top: 115px !important;
+    }
+    .targetDiv p{
+        padding: 0px !important;
+    }
+    .section_Project .download_file a {
+        font-size: 4vw !important;
     }
 
 }
@@ -669,12 +718,16 @@ iframe{
     /* position: relative; */
     margin-top: 85px;
 }
-.section_Project .buttons{
+.section_Project-product-fixed .buttons{
     /* margin-left: 13px; */
     margin-top: 12px;
 }
 
-.section_Project .buttons a{
+.project-nav .navbar{
+    background-color: #ffff;
+}
+
+.section_Project-product-fixed .buttons a{
     padding: 10px;
     position: relative;
     text-decoration: none;
@@ -689,11 +742,11 @@ iframe{
    margin-right: 20px;
    font-size: 3.2vh;
 }
-.section_Project .active-product{
+.section_Project-product-fixed .active-product{
     background-color: yellowgreen!important;
 }
-.section_Project .buttons a:hover{
-    background-color: yellowgreen;
+.section_Project-product-fixed .buttons a:hover{
+    background-color: rgb(215, 222, 201);
 }
 .section_Project .targetDiv{
     display: block;
@@ -744,11 +797,19 @@ iframe{
     font-weight: bold;
     
 }
-.section_Project .product-fixed{
+.section_Project-product-fixed {
     position: fixed;
     z-index: 99;
+    top: 70px;
+    width: 100%;
     background-color: #ffff;
      padding: 0 20px 10px 20px;
+}
+
+.targetDiv p{
+    font-size: 20px;
+    /* line-height: 1.4; */
+    padding: 0px 150px 0px 50px;
 }
 /* .section_Project .row{
     margin-top: 71px;
