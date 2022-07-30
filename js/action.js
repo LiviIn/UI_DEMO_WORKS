@@ -86,3 +86,14 @@ for (var i = 0; i < li_elements.length; i++) {
     }
   });
 }
+
+// Animation
+// $(document).ready(function () {
+//   $('.title').attr({
+//       "data-aos": "fade-right",
+//       "data-aos-duration": "1000"
+//   });
+//   setTimeout(() => {
+//       AOS.init();
+//   }, 120);
+// });

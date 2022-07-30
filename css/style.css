@@ -107,6 +107,9 @@ header .style_link a {
  header .navbar .navbar-light .navbar-nav .nav-link{
     font-weight: 600 !important;
  }
+ bg-primary {
+    background-color: #a2b6b6!important;
+}
 header .style_link{
     margin: 0px 10px;
     font-size: 14px;
@@ -671,10 +674,10 @@ iframe{
         font-size: 2.8vw !important;
     }
     .section_Project .card img {
-        width: 44% ;
+        width: 54%!important;
         text-align: center !important;
         margin-top: -6px !important;
-        margin-left: 33px !important;
+        margin-left: 13px !important;
     }
     .section_Project .targetDiv {
         padding-top: 115px !important;
@@ -684,6 +687,15 @@ iframe{
     }
     .section_Project .download_file a {
         font-size: 4vw !important;
+    }
+    .glowing_body{
+        display: none !important;
+    }
+    .footer-menu he{
+        font-size: 14px !important;
+    }
+    header .navbar {
+        background: #addcdb;
     }
 
 }
@@ -724,7 +736,7 @@ iframe{
 }
 
 .project-nav .navbar{
-    background-color: #ffff;
+    background-color: #ffff !important;
 }
 
 .section_Project-product-fixed .buttons a{
