@@ -140,6 +140,10 @@ header .style_link a:hover:after{
 header .navbar-brand img{
     width: 125px;
 }
+.navbar{
+    background-color: white;
+    padding: 0px !important;
+}
 /*.... Header section css End.... */
 
 .sticky_container_email{
@@ -184,9 +188,9 @@ header .navbar-brand img{
 /*.... hero section CSS start....*/
 #hero_section{
     position: relative;
-    background: url(../accets/images/hero_img.jpeg);
     min-height: 100vh;
     min-width: 100vw;
+    background: url(../accets/images/hero_img.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -412,9 +416,10 @@ header .navbar-brand img{
     max-height: 100vh; */
     background-color: #42a9a729;
     margin-bottom: -16px;
+    padding-bottom: 40px;
 }
 #contact_section .row{
-    padding-top: 70px;
+    padding-top: 50px;
 }
 #contact_section .Address_title{
    
@@ -846,7 +851,127 @@ footer a{
 #About-footer{
     margin-top: 363px;
 }
-
-
+#payroll_section{
+    
+    
+}
+#payroll_section .payrol-head{
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #c4cbd2;;
+}
+#payroll_section .payrol-head h1{
+    margin-top: 10rem;
+}
+nav .dropdown .dropdown-menu{
+    padding: 15px 20px 10px 15px !important;
+    margin-left: -87px !important;
+}
+#payroll_section h2{
+    font-size: 2.4vw;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+#payroll_section p{
+    font-size: 1.3vw;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+    font-weight: 500;
+    padding: 20px 20px 0px 0px;
+}
+#payroll_section .payrol-head img{
+    margin-top: 10rem;
+}
+#payroll_section .definition{
+    position: relative;
+    min-width: 100vw;
+}
+.definition .card-al{
+    position: absolute;
+    top: -93px;
+    left: -10px;
+    right: 95px;
+}
+.definition ul li{
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+.definition .heding-definition {
+    padding-top: 31rem;
+}
+.definition .img-definition img{
+    width: 100%;
+    padding-top: 28px;
+    border-radius: 50%;
+}
+.payrol-head img{
+    width: 100%;
+}
+.payrool-manage h2{
+    padding: 92px 0px 0px 0px;
+}
+.heding-definition{
+    background-color: #f6f6f6;
+    padding-top: 26rem;
+}
+.definition .left-margin {
+    /* justify-content: center!important; */
+    margin-left: 5rem !important;
+}
+.heding-definition-2{
+    padding-top:  4rem;;;
+}
+.heding-definition-2 h4{
+   margin-top:  3rem;
+}
+.heding-definition-2  img{
+    width: 100%;
+}
+#Attatece_section .payrol-head{
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #c4cbd2;;
+}
+#Attatece_section .payrol-head img{
+    margin-top: 10rem;
+}
+#Attatece_section .definition {
+    position: relative;
+    min-width: 100vw;
+}
+#Attatece_section .payrol-head h1{
+    margin-top: 10rem;
+}
+#Attatece_section .definition .card-al {
+    position: absolute;
+    top: -106px;
+    left: -10px;
+    right: 95px;
+}
+#Attatece_section h2{
+    font-size: 2.4vw;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+#Attatece_section p{
+    font-size: 1.3vw;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+    font-weight: 500;
+    padding: 20px 20px 0px 0px;
+}
+#Attatece_section .definition .heding-definition {
+    padding-top: 19rem;
+}
+#Attatece_section .heding-definition-2 {
+    padding-top: 0rem;
+}
+#Attatece_section .payrool-manage h2 {
+    padding: 65px 0px 0px 0px;
+}
 
 
