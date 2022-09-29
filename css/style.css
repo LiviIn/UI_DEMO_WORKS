@@ -647,6 +647,12 @@ iframe{
     #contact_section .follow_section .justify-content-start {
         justify-content: center!important;
     }
+    #About-footer {
+        margin-top: 0px !important;
+    }
+    .section_About {
+        margin-top: 94px !important;
+    }
     .section_About section  {
         margin-top: 30px;
         padding: 0 15px 30px 0px;
@@ -701,6 +707,52 @@ iframe{
     }
     header .navbar {
         background: #addcdb;
+    }
+    #Attatece_section .payrol-head{
+        min-height: auto  !important;
+    }
+    #Attatece_section .payrol-head h1 {
+        margin-top: 5rem !important;
+    }
+    #Attatece_section p {
+        font-size: 4.3vw !important;
+    }
+    #Attatece_section .payrol-head img{
+        display: none;
+    }
+
+    #Attatece_section .definition .card-al {
+        top: -6px !important;
+        left: -85px!important;
+        right: 11px!important;
+    }
+    #Attatece_section h2 {
+        font-size: 4.4vw !important;
+    }
+    #payroll_section h2 {
+        font-size: 4.4vw !important;
+    }
+    #payroll_section .payrol-head h1 {
+        margin-top: 5rem !important;
+    }
+    #payroll_section p {
+        font-size: 4.3vw !important;
+    }
+
+    #payroll_section .payrol-head img{
+        display: none;
+    }
+    #payroll_section .payrol-head{
+        min-height: auto  !important;
+    }
+    #payroll_section .definition .card-al {
+        top: -6px !important;
+        left: -85px!important;
+        right: 11px!important;
+    }
+
+    .definition .img-definition img {
+        display: none;
     }
 
 }
@@ -866,7 +918,8 @@ footer a{
 }
 nav .dropdown .dropdown-menu{
     padding: 15px 20px 10px 15px !important;
-    margin-left: -87px !important;
+    /* margin-left: -87px !important; */
+    margin-left: 22px !important;
 }
 #payroll_section h2{
     font-size: 2.4vw;
